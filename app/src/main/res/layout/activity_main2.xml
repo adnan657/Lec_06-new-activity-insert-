@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="245dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="GotoDialer"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/asi" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="256dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="80dp"
+        android:onClick="Gotowebside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:srcCompat="@drawable/qwe" />
 </androidx.constraintlayout.widget.ConstraintLayout>
